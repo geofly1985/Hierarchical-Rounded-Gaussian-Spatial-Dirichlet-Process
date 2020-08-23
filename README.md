@@ -1,5 +1,5 @@
 # Hierarchical-Rounded-Gaussian-Spatial-Dirichlet-Process
-This repo contains the code of HRGSDP approach proposed in "A Bayesian Nonparametric model for textural pattern heterogeneity" by Li, X et all. 
+This repo contains the code of HRGSDP approach proposed in "A Bayesian Nonparametric model for textural pattern heterogeneity" by Li, X et al. 
 
 The rgsdp.cpp, dp.h, samplers.R and cal_stat.R will be called in the simulation scripts. Be sure to change the file path accordingly.
 
