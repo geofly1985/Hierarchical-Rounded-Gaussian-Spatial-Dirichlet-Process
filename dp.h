@@ -5,7 +5,7 @@
 
 using namespace std;
 using namespace arma;
-using namespace Rcpp ;
+using namespace Rcpp;
 
 const double pi = 3.141592653589793238462;
 
@@ -37,6 +37,6 @@ double ldnorm(double x, double m, double s) {
 double wsample( vec x, vec prob ) {
   NumericVector ret = Rcpp::RcppArmadillo::sample(
     as<NumericVector>(wrap(x)), 1, true, 
-    as<NumericVector>(wrap(prob))) ;
-  return ret[0] ;
+    as<NumericVector>(wrap(prob)));
+  return ret[0];
 }
